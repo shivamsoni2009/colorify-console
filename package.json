@@ -1,0 +1,29 @@
+{
+  "name": "colorifyconsole",
+  "version": "1.0.0",
+  "description": "A library to colorify your console logs",
+  "main": "lib/index.js",
+  "types":"lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamsoni2009/colorify-console.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify-logs"
+  ],
+  "author": "Shivam soni shivam27soni@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shivamsoni2009/colorify-console/issues"
+  },
+  "homepage": "https://github.com/shivamsoni2009/colorify-console#readme",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  },
+  "files":["lib/**/*"]
+}
